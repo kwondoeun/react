@@ -39,7 +39,7 @@ const IterationComponent2 = () => {
     //onClick= { () => 함수호출() }
     const handleRemove = (a) => {
         //console.log(a); //삭제를 하기위한 키
-        //filter - 콜백의 리턴이 true인 값을 가지고 새로운 배열생ㅇ성
+        //filter - 콜백의 리턴이 true인 값을 가지고 새로운 배열생성
         //const ex = [1,2,3,4,5].filter( (item) => item != 3)
 
         const newList = list.filter( item => item.id !== a);
